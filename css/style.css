@@ -1,0 +1,157 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, ul {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.container::after {
+    content: ' ';
+    clear: both;
+    display: block;
+}
+
+header {
+    width: 100%;
+    background-color: black;
+    color: white;
+    height: 70px;
+}
+
+header div.logo {
+    text-transform: uppercase;
+    width: 30%;
+    float: left;
+    font-weight: 300;
+    height: 50px;
+    margin: 10px 0;
+    line-height: 50px;
+}
+
+header div.logo span {
+    text-transform: uppercase;
+    color: rgb(0, 194, 162);
+    font-weight: bold;
+}
+
+header nav.menu {
+    width: 70%;
+    list-style: none;
+    float: right;
+    height: 50px;
+    margin: 10px 0;
+    line-height: 50px;
+}
+
+header nav.menu li {
+    list-style: none;
+    float: left;
+    margin-left: 30px;
+}
+
+header nav.menu ul {
+    float: right;
+}
+
+header nav.menu a {
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+header nav.menu a:hover {
+    color: rgb(0, 194, 162);
+}
+
+section.slider {
+    width: 100%;
+    height: 550px;
+    text-align: center;
+    background: rgb(255,255,255);
+    background: -moz-linear-gradient(top, rgb(255,255,255) 0%, rgb(204,205,209) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgb(255,255,255)), color-stop(100%, rgb(204,205,209)));
+    background: -webkit-linear-gradient(top, rgb(255,255,255) 0%, rgb(204,205,209) 100%);
+    background: -o-linear-gradient(top, rgb(255,255,255) 0%, rgb(204,205,209) 100%);
+    background: -ms-linear-gradient(top, rgb(255,255,255) 0%, rgb(204,205,209) 100%);
+    background: linear-gradient(to bottom, rgb(255,255,255) 0%, rgb(204,205,209) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#cccdd1', GradientType=0 );
+}
+
+section.slider div.slider_arrow a{
+    font-size: 70px;
+    color: rgb(0, 194, 162);
+    text-decoration: none;
+    line-height: 500px;
+    font-weight: 300;
+}
+
+section.slider a.arrow_left {
+    float: left;
+    width: 50px;
+}
+
+section.slider a.arrow_right {
+    float: right;
+    width: 50px;
+}
+
+section.slider img.black_chair {
+    float: left;
+    width: 500px;
+    margin-top: 70px;
+}
+
+section.slider article.main_info {
+    float: left;
+    width: 550px;
+    padding: 20px 40px;
+}
+
+section.slider h1 {
+    text-transform: uppercase;
+    font-weight: 300;
+    margin-top: 100px;
+    font-size: 40px;
+}
+
+section.slider span {
+    color: rgb(0, 194, 162);
+    font-weight: 400;
+}
+
+section.slider button.see_more {
+    background-color: rgb(0, 194, 162);
+    color: white;
+    padding: 3% 7%;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 300;
+    border: none;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+section.slider button.see_more:hover {
+    color: rgb(0, 194, 162);
+    background-color: white;
+}
+
+
+
+
+
