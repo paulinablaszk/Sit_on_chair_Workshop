@@ -90,8 +90,9 @@ header .submenu {
     padding: 10px 0;
     text-align: left;
     z-index: 10000;
-    opacity: 0;
-    visibility: hidden;
+    display: none;
+    /*opacity: 0;
+    visibility: hidden;*/
 }
 
 
@@ -119,12 +120,12 @@ header .submenu:after {
     width: 100%;
     height: 15px;
 }
-
+/*
 header nav.menu>ul>li:hover .submenu {
     opacity: 1;
     visibility: visible;
 }
-
+*/
 header .submenu li {
     display: block;
     text-align: left;
@@ -213,6 +214,20 @@ section.slider button.see_more {
 section.slider button.see_more:hover {
     color: rgb(0, 194, 162);
     background-color: white;
+}
+
+
+.slider ul.slider_img {
+    list-style: none;
+}
+
+.slider ul.slider_img li{
+    display: none;
+}
+
+.slider ul.slider_img .visible{
+    display: inline-block;
+    float: left;
 }
 
 /* -----PRODUCTS-----*/
@@ -673,4 +688,6 @@ section.contact {
 
 .social_icons .social_twitter {
     background: url(../images/twitter.png) no-repeat;
+}
+
 }
